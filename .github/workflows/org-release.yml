@@ -11,7 +11,7 @@ on:
 
 jobs:
   create-release:
-    uses: AndyMills-CloudBeard/Actions/.github/workflows/org-release.yml@44209ad54aaea21f87aa1a4366c3c1c145e87ae5 # v0.0.1
+    uses: AndyMills-CloudBeard/Actions/.github/workflows/org-release.yml@4f913ac5aff74fe98d6121e6e979955927f99a48 # v1.0.0
     permissions:
       contents: write
       pull-requests: write
