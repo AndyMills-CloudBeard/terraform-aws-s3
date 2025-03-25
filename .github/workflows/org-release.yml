@@ -1,9 +1,5 @@
 name: Org Release
 
-permissions:
-  contents: write
-  pull-requests: write
-
 on:
   push:
     branches:
@@ -12,3 +8,6 @@ on:
 jobs:
   create-release:
     uses: AndyMills-CloudBeard/Actions/.github/workflows/org-release.yml@44209ad54aaea21f87aa1a4366c3c1c145e87ae5 # v0.0.1
+    permissions:
+      contents: write
+      pull-requests: write
